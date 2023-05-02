@@ -1,0 +1,32 @@
+
+passé les étoiles à 4 done
+
+validé le code html done
+
+définition de web semantique
+
+
+
+
+
+---------------------------------------------
+
+barre de recherche padding et width
+
+
+paddding filtre 20px flex start ds align
+
+gap populaire
+
+space between hebergement
+ activite content img height 85%
+
+footer align item flex start
+padding body retirer mobile
+
+padding filtre 20px
+activité padding 10px
+align item center
+
+
+

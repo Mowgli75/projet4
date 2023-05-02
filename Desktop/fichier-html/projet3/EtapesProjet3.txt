@@ -1,0 +1,8 @@
+Etapes effectue pour la realisation du projet 3 :
+
+1) j'ai copier-coller le code html et css de base fournis pour demarrer le projet de github a visual studio code, j'ai aussi telechargé
+et intégré les images aux dossiers que j'avais préalablement créer.
+
+2) j'ai integré le lien font awesome pour les icones ainsi que la police d'écriture a mon html.
+
+3) j'ai regardé le webinaire sur la découpe de la maquette pour mieux structuré mon code.

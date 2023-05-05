@@ -1,0 +1,58 @@
+*{
+ font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+h1 {
+display:flex ;
+justify-content: center;
+align-items: center;
+color: black;
+height: 70px;
+width: 100%;
+box-shadow: 0 3px 5px rgba(0,0,0,.590);
+font-family: 'Shrikhand', cursive;
+margin: 3px 0px;
+}
+
+.location {
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.location i {
+    margin-right: 5px;
+}
+.location p {
+    
+    font-weight: 500;
+    font-size: larger ;
+}
+
+/* partie reservation*/
+
+.conteneur-lien-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 30px 10px;
+}
+.titre-lien-menu {
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.texte-lien-menu{
+    font-size: large;
+    font-weight: 300;
+}

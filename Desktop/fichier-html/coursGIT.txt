@@ -1,0 +1,22 @@
+git init = initialiser un depot
+
+git add = ajouter un fichier
+git commit -m = faire un commit du fichier dans le depot local
+git commit --amend --no-edit = modifier le dernier commit
+git push = envoyez le commit dans le depot distant
+
+git branch = créer une branche/ consulter les branches
+git branch -d = supprimer une branche
+git checkout = basculer d'une branche à l'autre
+git merge = fusionner le travail d'une branche au tronc principal
+
+git status = voir l'état des fichiers
+git stash = réaliser une remise ( mettre de coté des modif pour les reutiliser plus tard)
+git stash list = pour voir la liste des remises
+git stash apply = appliquer une remise
+
+git clone= cloner un fichier
+git remode add = creer un raccourci(pour un lien long par exemple)
+git pull = recupérer des modif faites
+
+Sur github : Pull request = demander l'autorisation d'apporter une modification du main au proprio du repository

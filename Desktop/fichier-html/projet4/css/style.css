@@ -17,8 +17,11 @@ height: 70px;
 width: 100%;
 box-shadow: 0 3px 15px rgba(0,0,0,.590);
 font-family: 'Shrikhand', cursive;
+font-style: italic;
 margin: 3px 0px;
 }
+
+/** partie location **/
 
 .location {
     background-color: #EAEAEA;
@@ -76,6 +79,7 @@ margin: 3px 0px;
     justify-content: center;
     align-items: center;
     padding: 20px;
+   
 }
 
 .conteneur-fonctionnement h2{
@@ -83,7 +87,7 @@ margin: 3px 0px;
     width: 50%;
 }
 
-.fonctionnement-etape{
+.Fonctionnement-etape{
     background-color: #f6f6f6;
     border-radius: 20px;
     padding: 5px 25px;
@@ -184,4 +188,198 @@ footer h2 {
     align-items: center;
     gap: 10px;
     margin-top: 15px;
+}
+
+
+/**** Page La palette du gout****/
+
+.main-page1{
+    background-color: #f6f6f6;
+}
+.header-page{
+    position: relative;
+}
+.header-back{
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+
+.title-page1{
+    box-shadow: none;
+}
+
+.image-page1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* partie main */
+
+.conteneur-main-page1{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ position: relative;
+ top: -40px;
+ background-color:#f6f6f6;
+ border-radius: 20px 20px 0px 0px;
+}
+.conteneur-main-page1 p {
+    margin: 0px;
+}
+.conteneur-main-page1 h4 {
+    margin: 0px;
+}
+.titre-page1{
+    font-family: 'Shrikhand', cursive;
+    font-size:28px;
+    font-weight: 400;
+    font-style: italic; 
+    padding: 20px;
+    margin: 0px;
+}
+
+/* partie entrée */
+
+.entrées-conteneur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+    width: 100%;
+    position: relative;
+}
+
+
+.titre-entrées-page1{
+    font-weight: 100;
+   align-self: flex-start;
+   padding: 10px 15px;
+   margin: 0px;
+    text-transform: uppercase;
+}
+
+.ligne-entrées-page1{
+    border-bottom: 3px solid #99E2D0;
+    width: 45px;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+}
+
+.entrées-page1{
+background-color: white;
+width: 85%;
+border-radius: 15px;
+padding: 15px;
+box-shadow: 0px 4px 15px rgba(0,0,0,.2);
+text-align: start;
+}
+
+.rangement-page1{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.prix-page1{
+    font-weight: 700;
+}
+
+/* partie plats */
+
+.plats-conteneur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+    width: 100%;
+    position: relative;
+}
+.titre-plats-page1 {
+    font-weight: 100;
+   align-self: flex-start;
+   padding: 10px 15px;
+   margin: 0px;
+   text-transform: uppercase;
+}
+
+.ligne-plats-page1{
+    border-bottom: 3px solid #99E2D0;
+    width: 45px;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+}
+
+.plats-page1 {
+    background-color: white;
+    width: 85%;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,.2);
+    text-align: start;
+}
+
+/* partie dessert */
+
+.desserts-conteneur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.titre-desserts-page1{
+    font-weight: 100;
+   align-self: flex-start;
+   padding: 10px 15px;
+   margin: 0px;
+   text-transform: uppercase;
+}
+.ligne-desserts-page1{
+    border-bottom: 3px solid #99E2D0;
+    width: 45px;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+}
+
+.desserts-page1{
+    background-color: white;
+    width: 85%;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,.2);
+    text-align: start;
+}
+
+/* partie boutton page1 */
+
+.button-page1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px 0px 20px;
+}
+
+
+.button-commander-page1{
+    color: white;
+    width: 50%;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #FF79DA,#9356DC );
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
 }

@@ -69,7 +69,15 @@ margin: 3px 0px;
     background: linear-gradient(to bottom, #FF79DA,#9356DC );
     padding: 15px;
     border-radius: 30px;
-}
+    transition-duration: 400ms;
+    }
+    .button-lien-restaurant:hover {
+        transition: all 400ms ease-in-out;
+        box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.25);
+        opacity: 0.8;
+
+    }
+
 
 /* partie fonctionnement*/
 
@@ -388,4 +396,139 @@ text-align: start;
     padding: 15px;
     border-radius: 30px;
     text-align: center;
+    transition-duration: 400ms;
+}
+
+.button-commander-page1:hover {
+    transition: all 400ms ease-in-out;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.25);
+    opacity: 0.8;
+}
+
+/*** Partie media queries tablette***/
+
+@media screen and (min-width: 768px) {
+body{
+    width: 1024px;
+}
+h1 {
+    height: 90px;
+    box-shadow: none;
+}
+
+.titre-lien-menu{
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.button-lien-restaurant{
+    width: 20%;
+}
+
+.conteneur-fonctionnement{
+    display: flex;
+    flex-direction:column;
+    padding: 80px;
+}
+
+.media-rangement-fonctionnement{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+.Fonctionnement-etape{
+    width: 220px;
+    height: 60px;
+    justify-content: flex-start;
+}
+.Fonctionnement-etape p{
+    font-size: larger;
+}
+.number{
+    left: -9px;
+}
+
+/** main **/
+.conteneur-restaurant{
+    padding: 80px;
+}
+.conteneur-restaurant h2{
+    align-self: flex-start;
+}
+
+.media-rangement-restaurant{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 60px;
+
+}
+
+.restaurant {
+    width: 100%;
+}
+.restaurant img{
+    width: 100%;
+}
+
+/*** footer***/
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    gap: 80px;
+}
+footer h2{
+    margin-bottom: 0px;
+    font-size: medium;
+    
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.footer-text p{
+margin-bottom: 0px;
+}
+
+}
+
+
+
+/**** media queries desktop ****/
+
+
+@media screen and (min-width:1024px){
+    body{
+      
+        width: 1440px;
+    }
+
+.conteneur-fonctionnement {
+  padding-left: 230px;
+}
+
+
+
+.Fonctionnement-etape{
+    width: 250px;
+}
+
+.conteneur-restaurant h2 {
+    padding-left: 160px;
+}
+.media-rangement-restaurant{
+    grid-template-columns: 450px 450px;
+}
+footer h2 {
+    width: 200px;
+}
+
 }
